@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <title>Page</title>
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+
+    nav {
+        background-color: whitesmoke;
+    }
+
+    nav img,
+    a {
+        display: inline-block;
+       
+    }
+    nav>img {
+        padding-left: 40px;
+        background-image: transparent;
+        height: 90px;
+        background: none;
+        width: 100px;
+    }
+
+    nav a {
+        color: black;
+        text-decoration: none;
+        padding: 4px;
+        margin: 20px;
+        float: right;
+        vertical-align: top;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+    }
+
+    nav a:hover {
+        background:linear-gradient( 45deg, #1677b4, #e4e5e6);
+        border-radius: 10px;
+    }
+
+    #abc {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(eee.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 100px;
+        color: white;
+        text-align: center;
+    }
+
+    #abc h1 {
+        text-align: center;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #abc p {
+        text-align: center;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #button {
+        border: none;
+        background: transparent;
+    }
+
+    #button a {
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        background-color: rgba(245, 245, 236, 0.785);
+        border-radius: 6px;
+    }
+
+    #first {
+        text-align: center;
+    }
+
+    #first>div>p {
+        color: black;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    #first button {
+
+        border: none;
+        background: transparent;
+    }
+
+    #first a {
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        color: black;
+        padding: 4px;
+        background-color: rgba(54, 176, 70, 0.9);
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    #secound {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(check.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 100px;
+        height: 100px;
+        color: white;
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        margin-top: 20px;
+        word-spacing: 14px
+    }
+
+    #third>div {
+        margin-left: 200px;
+        padding: 60px;
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+    }
+
+    #third div p {
+        padding: 10px;
+        border: rgb(3, 88, 15) solid 2px;
+    }
+
+    #third span {
+        height: 20px;
+        width: 20px;
+    }
+
+    .third p {
+        text-align: center;
+    }
+
+    #four div {
+        background-color: rgb(113, 219, 129);
+        text-align: center;
+        max-width: 449px;
+        padding-bottom: 0.0099px;
+        padding-left: 22px;
+        padding-right: 22px;
+        margin-left: 500px;
+        border-radius: 4px;
+    }
+
+    #four {
+        text-align: center;
+    }
+
+    #five {
+        background-color: blanchedalmond;
+        color: brown;
+        padding: 20px;
+        margin-top: 30px;
+        font-family: 'Orbitron', sans-serif;
+        word-spacing: 4px;
+    }
+
+    #five>div>p>a {
+        background-color: rgba(97, 203, 108, 0.671);
+        text-decoration: none;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: right;
+        border-radius: 4px;
+    }
+
+    #footer {
+        background: linear-gradient(45deg, #c292de, #67b3e4, #95a3e0, #ffffff );
+    }
+
+    #six {
+        text-align: center;
+        padding: 30px;
+        border-bottom: 4px blueviolet solid;
+
+    }
+
+    #sixx {
+        margin-left: 400px;
+    }
+
+    .six1 {
+        display: inline-block;
+        margin: 10px;
+        vertical-align: top;
+        text-decoration: none;
+
+    }
+
+    .six1 iframe {
+        padding-top: 30px;
+        height: 300px;
+        width: 300px;
+    }
+
+    .six2 {
+        display: inline-block;
+        border: none;
+    }
+
+    .six2 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .six3 {
+        text-align: center;
+        border-top: 2px blue solid;
+        padding: 20px;
+
+    }
+    .six3 span{
+        border-bottom: rgb(228, 134, 134) solid 2px;
+    }
+</style>
+
+<body>
+    <nav>
+        <img src="https://png.pngtree.com/element_our/png/20180912/coffee-time-png_91570.jpg" alt="not found">
+        <a href="" target="blank">ABOUT</a>
+        <a href="" target="blank">PROTFOLO</a>
+        <a href="" target="blank">SERVICES</a>  
+        <a href="" target="blank">VLOG</a>
+        <a href="" target="blank">GET STARTED</a>
+    </nav>
+    <header>
+        <div id="abc">
+            <h1>Classic.Coffee. Time</h1>
+            <p>Time To Recharge Your Self. Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <button id="button"><a href="">GET STARTED &#8594;</a></button>
+        </div>
+    </header>
+    <section id="first">
+        <div>
+            <h1>OUR MISSION</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus atque molestiae incidunt, omnis corrupti
+                maiore Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum labore nobis possimus aliquam
+                commodi ad doloribus quia, debitis exercitationem saepe? quos?<b>HI HOW ARE YOU</b> quidem quisquam
+                harum quibusdam?</p>
+            <button><a href="">SEE THE PORTFOLIO &#8594;</a></button>
+        </div>
+    </section>
+
+    <section id="secound">
+        <h1>HAPPY CLIENTS</h1>
+    </section>
+
+    <section id="third">
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi expedita magni distinctio eos vitae rem,
+                adipisci incidunt quae nobis itaque iste delectus voluptatibus consectetur ea nesciunt voluptatem. Ipsa
+                mollitia vero, magni commodi incidunt reiciendis ipsam amet. Harum aperiam, non et minima omnis a eius
+                voluptatum sequi, pariatur molestiae dolorem veniam natus recusandae esse dignissimos dolores quidem
+                deserunt? Similique, nobis perferendis!</p>
+            <div class="third3">
+                <h4>- Lis valogatre traasnak</h4>
+            </div>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem neque asperiores numquam in architecto,
+                possimus aliquam error cumque perspiciatis ad, fugit nesciunt nemo rerum. Natus perferendis iure,
+                unde
+                corporis veritatis laborum. Repudiandae, eligendi sint ut accusamus dolorum repellendus corporis
+                possimus.</p>
+            <div class="third3">
+                <h4>- Lis valogatre traasnak</h4>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="four">
+        <div>
+            <p>READ MORE TESTIMMONIALS ON OUR FACEBOOK PAGE- &#10095;</p>
+        </div>
+    </section>
+    <section id="five">
+        <div>
+            <p>Your New Home Location <a href="">START ADD LOACTION &#8594;</a></p>
+        </div>
+    </section>
+    <footer id="footer">
+        <div id="six">
+            <input type="search" &#128269; placeholder="SEARCH">
+        </div>
+
+        <div id="sixx" class="six1">
+            <h1>GET SOCIAL:</h1>
+            <a href="https://www.facebook.com" target="_blank"><img
+                    src="https://cdn.icon-icons.com/icons2/1826/PNG/128/4202107facebookfblogosocialsocialmedia-115710_115591.png"
+                    alt="not found" height="30px"> </a>
+
+            <a href="https://www.instagram.com/" target="_blank"><img
+                    src="https://cdn.icon-icons.com/icons2/836/PNG/128/Instagram_icon-icons.com_66804.png"
+                    alt="not found Images" height="30px"></a>
+
+            <a href="https://twitter.com/i/flow/login" target="_blank"><img
+                    src="https://cdn.icon-icons.com/icons2/122/PNG/128/twitter_socialnetwork_20007.png"
+                    alt="not found Images" height="30px"></a>
+
+        </div>
+        <div class="six1">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14028.17659501216!2d77.5045989!3d28.47821705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cea80e3f4cfa7%3A0xba5290caef46b677!2sYMCA%20Greater%20Noida%20Noida%20Programme%20Centre!5e0!3m2!1sen!2sin!4v1664215530048!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="six1 six2">
+
+            <p><a href="" target="blank">About</a> </p>
+            <p><a href="" target="blank">PORTFOLIIO</a> </p>
+            <p><a href="" target="blank">SERVICES</a> </p>
+            <p><a href="" target="blank">GET STARTED </a> </p>
+        </div>
+
+        <div class="six1 six2">
+            <h1>CONTACT:</h1>
+            <p><a href="" target="blank">4444$$$$$$ |</a></p>
+            <p><a href="" target="">YASH((A(>.gamil.com</a></p>
+        </div>
+        <div class="six3">
+            TERMS AND CONDITIONS | branding + site design By <span> Company Name</span>
+        </div>
+    </footer>
+</body>
+
+</html>
